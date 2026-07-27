@@ -1,0 +1,7 @@
+interface:
+  display_name: "MicroGrid-IQ Calculator"
+  short_description: "Calculate energy and electrical scenarios"
+  brand_color: "#0F766E"
+  default_prompt: "Use $calculate-energy-system to calculate this scenario with explicit inputs, units, assumptions, and warnings."
+policy:
+  allow_implicit_invocation: true

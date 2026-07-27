@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.madscientistwit/microgrid-iq-calculator",
+  "title": "MicroGrid-IQ Calculator",
+  "description": "Public, stateless energy, electrical, utility, battery, dwelling-load, and cash-flow calculators with structured assumptions and warnings.",
+  "version": "1.0.0",
+  "websiteUrl": "https://microgrid-iq.com/ai/calculators",
+  "repository": {
+    "url": "https://github.com/MadScientistWit/microgrid-iq-calculator-plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://microgrid-iq.com/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "publisher": "Making Things For Smiles LLC",
+      "publicDocumentation": "https://microgrid-iq.com/ai/calculators",
+      "support": "https://microgrid-iq.com/support",
+      "privacy": "https://microgrid-iq.com/privacy",
+      "terms": "https://microgrid-iq.com/terms"
+    }
+  }
+}

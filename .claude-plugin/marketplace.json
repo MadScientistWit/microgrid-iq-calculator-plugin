@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "microgrid-iq",
+  "version": "1.0.0",
+  "description": "Public Claude Code marketplace for the MicroGrid-IQ Calculator.",
+  "owner": {
+    "name": "Making Things For Smiles LLC",
+    "email": "noreply@microgrid-iq.com"
+  },
+  "plugins": [
+    {
+      "name": "microgrid-iq-calculator",
+      "description": "Runs read-only energy, electrical, utility, battery, dwelling-load, and cash-flow calculations through the public MicroGrid-IQ MCP server.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Making Things For Smiles LLC"
+      },
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

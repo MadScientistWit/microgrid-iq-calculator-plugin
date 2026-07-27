@@ -1,0 +1,20 @@
+{
+  "name": "microgrid-iq",
+  "interface": {
+    "displayName": "MicroGrid-IQ"
+  },
+  "plugins": [
+    {
+      "name": "microgrid-iq-calculator",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Data & Analytics"
+    }
+  ]
+}

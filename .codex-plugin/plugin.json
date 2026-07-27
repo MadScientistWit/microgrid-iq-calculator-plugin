@@ -1,0 +1,42 @@
+{
+  "name": "microgrid-iq-calculator",
+  "version": "1.0.0",
+  "description": "Read-only electrical, energy, utility, battery, dwelling-load, and cash-flow calculators with structured assumptions and warnings.",
+  "author": {
+    "name": "Making Things For Smiles LLC",
+    "url": "https://microgrid-iq.com"
+  },
+  "homepage": "https://microgrid-iq.com/ai/calculators",
+  "repository": "https://github.com/MadScientistWit/microgrid-iq-calculator-plugin",
+  "keywords": [
+    "energy",
+    "electrical",
+    "microgrid",
+    "battery",
+    "calculator"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MicroGrid-IQ Calculator",
+    "shortDescription": "Energy calculations for AI",
+    "longDescription": "Run focused, stateless calculations for energy use, AC power, voltage drop, dwelling service load, flat-rate utility bills, battery backup capacity, and project cash-flow metrics. Results include units, stated assumptions, method version, and safety limitations.",
+    "developerName": "Making Things For Smiles LLC",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Read-only calculations",
+      "Structured outputs"
+    ],
+    "websiteURL": "https://microgrid-iq.com/ai/calculators",
+    "privacyPolicyURL": "https://microgrid-iq.com/privacy",
+    "termsOfServiceURL": "https://microgrid-iq.com/terms",
+    "defaultPrompt": [
+      "Calculate energy use for a 5 kW load running 8 hours.",
+      "Estimate voltage drop for my copper circuit.",
+      "Size a battery for 2 kW of critical load for 12 hours."
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  },
+  "mcpServers": "./.mcp.json"
+}

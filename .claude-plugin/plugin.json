@@ -1,0 +1,17 @@
+{
+  "name": "microgrid-iq-calculator",
+  "displayName": "MicroGrid-IQ Calculator",
+  "version": "1.0.0",
+  "description": "Read-only energy, electrical, utility, battery, dwelling-load, and cash-flow calculators with structured assumptions and warnings.",
+  "author": {
+    "name": "Making Things For Smiles LLC"
+  },
+  "homepage": "https://microgrid-iq.com/ai/calculators",
+  "keywords": [
+    "energy",
+    "electrical",
+    "microgrid",
+    "battery",
+    "calculator"
+  ]
+}
