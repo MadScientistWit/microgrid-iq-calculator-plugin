@@ -34,7 +34,7 @@
       "Estimate voltage drop for my copper circuit.",
       "Size a battery for 2 kW of critical load for 12 hours."
     ],
-    "brandColor": "#0F766E",
+    "brandColor": "#23857E",
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/logo.png"
   },
