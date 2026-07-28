@@ -63,3 +63,6 @@ In Cowork, open **Customize → Plugins → Add marketplace**, enter
 - `Size a battery for 2 kW of critical load for 12 hours.`
 
 For help, use the [MicroGrid-IQ support page](https://microgrid-iq.com/support).
+Report security vulnerabilities privately through the
+[GitHub security advisory form](https://github.com/MadScientistWit/microgrid-iq-calculator-plugin/security/advisories/new),
+not a public issue.
