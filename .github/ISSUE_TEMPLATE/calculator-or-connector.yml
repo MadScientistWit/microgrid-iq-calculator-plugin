@@ -1,0 +1,62 @@
+name: Calculator or connector issue
+description: Report an incorrect result, MCP connection problem, or documentation issue.
+title: "[Calculator] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the public MicroGrid-IQ Calculator.
+        Do not include credentials, private customer data, addresses, account records, or confidential project information.
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client
+      options:
+        - ChatGPT
+        - Claude web or Desktop
+        - Claude Code
+        - Codex
+        - MCP Inspector
+        - REST API
+        - Other MCP client
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Calculator or tool
+      description: For example, microgrid_iq_energy_use or microgrid_iq_voltage_drop.
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Non-sensitive inputs and units
+      description: Include only the numeric inputs and units needed to reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Result or error
+      description: Paste the structured result or sanitized error message.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: Approximate request time and timezone
+      description: This helps correlate a request ID with operational logs.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed credentials and private or confidential data from this report.
+          required: true
